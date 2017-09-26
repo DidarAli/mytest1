@@ -21,4 +21,12 @@ public class MyMath {
        else
            return a;
     }
+    public static int max3(int a, int b, int c){
+        int max = max(a,b);
+        return max(max,c);
+    }
+    public static int min3(int a, int b, int c){
+        int min = min(a,b);
+        return min(min,c);
+    }
 }
