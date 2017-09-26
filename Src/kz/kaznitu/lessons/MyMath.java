@@ -25,11 +25,12 @@ public class MyMath {
         int max = max(a,b);
         return max(max,c);
     }
-    public static int min3(int a, int b, int c){
-        int min = min(a,b);
-        return min(min,c);
+    public static int min3(int a, int b, int c) {
+        int min = min(a, b);
+        return min(min, c);
+
     }
-    public static int isOdd(int a){
+    public static int boolean isOdd(int a){
     return(a%2!=0);
     }
 }
